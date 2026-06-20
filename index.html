@@ -1,553 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>...........</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+\<nav>
+  <div class="nav-brand">Việt<span>Nam</span> Orientation</div>
+  <ul class="nav-links">
+    <li><a href="#thithu">Thi Thử Vào 10</a></li>
+    <li><a href="#tuvan-dh">Tư Vấn Đại Học</a></li>
+    <li><a href="#lotrinh">Lộ Trình AI</a></li>
+    <li><a href="#contact">Liên Hệ</a></li>
+  </ul>
+</nav>
 
-    :root {
-      --sky:      #E8F4FD;
-      --mist:     #C5E3F7;
-      --blue:     #2980B9;
-      --navy:     #1A5276;
-      --deep:     #0D2B3E;
-      --white:    #FFFFFF;
-      --offwhite: #F5FAFF;
-      --text:     #1C3345;
-      --subtle:   #5D8AA8;
-    }
+<section class="hero">
+  <p class="hero-eyebrow">Hệ thống hướng nghiệp thông minh</p>
+  <h1>Làm bài thi thử<em> Nhận lộ trình từ AI</em></h1>
+  <p class="hero-sub">Phân tích điểm số chính xác, dự đoán tỷ lệ đỗ vào các trường Chuyên cấp 3 và các trường Đại học top đầu bằng trí tuệ nhân tạo Gemini Pro.</p>
+  <div class="hero-cta">
+    <a href="#thithu" class="btn-primary">Bắt Đầu Thi Thử</a>
+    <a href="#tuvan-dh" class="btn-ghost">Tư Vấn Chọn Trường</a>
+  </div>
+</section>
 
-    html { scroll-behavior: smooth; }
+<div class="stats">
+  <div>
+    <div class="stat-num">99%</div>
+    <div class="stat-label">Học sinh được định hướng</div>
+  </div>
+  <div>
+    <div class="stat-num">100+</div>
+    <div class="stat-label">Ngân hàng đề thi chuẩn</div>
+  </div>
+  <div>
+    <div class="stat-num">2026</div>
+    <div class="stat-label">Cập nhật điểm chuẩn mới nhất</div>
+  </div>
+  <div>
+    <div class="stat-num">0 đ</div>
+    <div class="stat-label">Hoàn toàn miễn phí</div>
+  </div>
+</div>
 
-    body {
-      font-family: 'Inter', sans-serif;
-      background: var(--offwhite);
-      color: var(--text);
-      line-height: 1.6;
-    }
+<div class="divider">
+  <div class="divider-line"></div><div class="divider-dot"></div><div class="divider-diamond"></div><div class="divider-dot"></div><div class="divider-line"></div>
+</div>
 
+<section class="destinations" id="thithu">
+  <div class="header">
+    <p class="section-label">Luyện thi trực tuyến</p>
+    <h2 class="section-title">Ngân hàng đề thi thử tuyển sinh lớp 10</h2>
+  </div>
+  
+  <div class="cards">
+    <div class="card">
+      <div class="card-body">
+        <p class="card-region">Môn Bắt Buộc</p>
+        <h3 class="card-name">Đề Thi Thử Môn Toán</h3>
+        <p class="card-desc">Cấu trúc đề gồm 5 câu tự luận và trắc nghiệm chuẩn cấu trúc tuyển sinh 10.</p>
+        <button class="btn-primary" style="margin-top: 1rem; width: 100%;">Vào Làm Bài</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <p class="card-region">Môn Bắt Buộc</p>
+        <h3 class="card-name">Đề Thi Thử Môn Ngữ Văn</h3>
+        <p class="card-desc">Đọc hiểu văn bản, nghị luận xã hội và nghị luận văn học trọng tâm.</p>
+        <button class="btn-primary" style="margin-top: 1rem; width: 100%;">Vào Làm Bài</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <p class="card-region">Môn Bắt Buộc</p>
+        <h3 class="card-name">Đề Thi Thử Tiếng Anh</h3>
+        <p class="card-desc">Hệ thống 40 câu trắc nghiệm ngữ pháp, từ vựng và bài đọc hiểu.</p>
+        <button class="btn-primary" style="margin-top: 1rem; width: 100%;">Vào Làm Bài</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider">
+  <div class="divider-line"></div><div class="divider-dot"></div><div class="divider-diamond"></div><div class="divider-dot"></div><div class="divider-line"></div>
+</div>
+
+<section class="culture" id="tuvan-dh">
+  <p class="section-label">Định hướng tương lai</p>
+  <h2 class="section-title">Nhập thông tin xét tuyển Đại học</h2>
+  
+  <div class="culture-grid">
+    <div class="culture-items" style="background: var(--white); padding: 2rem; border-radius: 8px; border: 1px solid var(--mist);">
+      
+      <div style="margin-bottom: 1rem;">
+        <label style="font-weight: 600; font-size: 0.9rem; color: var(--navy);">Điểm bài thi thử/Điểm học bạ lớp 12:</label>
+        <input type="number" id="diem_thithu" placeholder="Ví dụ: 24.5" step="0.1" style="width:100%; padding: 0.6rem; margin-top: 0.3rem; border: 1px solid var(--mist); border-radius: 4px;">
+      </div>
+
+      <div style="margin-bottom: 1rem;">
+        <label style="font-weight: 600; font-size: 0.9rem; color: var(--navy);">Chứng chỉ ngoại ngữ (IELTS / TOEIC / SAT nếu có):</label>
+        <input type="text" id="chung_chi" placeholder="Ví dụ: IELTS 6.5" style="width:100%; padding: 0.6rem; margin-top: 0.3rem; border: 1px solid var(--mist); border-radius: 4px;">
+      </div>
+
+      <div style="margin-bottom: 1rem;">
+        <label style="font-weight: 600; font-size: 0.9rem; color: var(--navy);">Sở thích, sở trường hoặc khối ngành mong muốn:</label>
+        <input type="text" id="so_thich" placeholder="Ví dụ: Thích công nghệ, thiết kế máy tính, thích lập trình" style="width:100%; padding: 0.6rem; margin-top: 0.3rem; border: 1px solid var(--mist); border-radius: 4px;">
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <label style="font-weight: 600; font-size: 0.9rem; color: var(--navy);">Khu vực muốn theo học:</label>
+        <select id="khu_vuc" style="width:100%; padding: 0.6rem; margin-top: 0.3rem; border: 1px solid var(--mist); border-radius: 4px; font-family: 'Inter', sans-serif;">
+          <option value="MienNam">Miền Nam (TP.HCM, Cần Thơ, Sóc Trăng...)</option>
+          <option value="MienTrung">Miền Trung (Đà Nẵng, Huế...)</option>
+          <option value="MienBac">Miền Bắc (Hà Nội...)</option>
+        </select>
+      </div>
+
+      <button id="btn-gui-ai" class="btn-primary" style="width: 100%;">Gửi Thông Tin Cho AI Phân Tích</button>
+    </div>
     
-    nav {
-      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: rgba(255,255,255,0.88);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--mist);
-      display: flex; align-items: center; justify-content: space-between;
-      padding: 0 6vw;
-      height: 64px;
-    }
-    .nav-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.35rem;
-      color: var(--navy);
-      letter-spacing: 0.02em;
-    }
-    .nav-brand span { color: var(--blue); }
-    .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a {
-      text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 500;
-      color: var(--subtle);
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--navy); }
-
- 
-    .hero {
-      min-height: 100vh;
-      background:
-        linear-gradient(175deg, rgba(232,244,253,0.92) 0%, rgba(197,227,247,0.6) 55%, rgba(41,128,185,0.18) 100%),
-        url('https://vinoda.vn/blogs/ky-thuat-chan-nuoi/ki-thuat-nuoi-nhim-sinh-san?srsltid=AfmBOorjBHrk0ygMQg3kgTedwO-LQTjQ-V6Ge-E2vwiKBJ6Gk0CVgcfo') center/cover no-repeat;
-      display: flex; flex-direction: column; justify-content: center;
-      padding: 0 6vw;
-      padding-top: 80px;
-    }
-    .hero-eyebrow {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--blue);
-      margin-bottom: 1.2rem;
-    }
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.8rem, 7vw, 5.5rem);
-      line-height: 1.1;
-      color: var(--deep);
-      max-width: 700px;
-    }
-    .hero h1 em {
-      font-style: italic;
-      color: var(--blue);
-    }
-    .hero-sub {
-      margin-top: 1.4rem;
-      max-width: 480px;
-      font-size: 1.05rem;
-      color: var(--subtle);
-      font-weight: 300;
-    }
-    .hero-cta {
-      margin-top: 2.4rem;
-      display: flex; gap: 1rem; flex-wrap: wrap;
-    }
-    .btn-primary {
-      background: var(--blue);
-      color: var(--white);
-      border: none;
-      padding: 0.85rem 2rem;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 600;
-      cursor: pointer;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.15s;
-    }
-    .btn-primary:hover { background: var(--navy); transform: translateY(-1px); }
-    .btn-ghost {
-      background: transparent;
-      color: var(--navy);
-      border: 1.5px solid var(--blue);
-      padding: 0.85rem 2rem;
-      font-family: 'Inter', sans-serif;
-      font-size: 0.9rem;
-      font-weight: 500;
-      cursor: pointer;
-      border-radius: 4px;
-      text-decoration: none;
-      transition: background 0.2s;
-    }
-    .btn-ghost:hover { background: var(--mist); }
-
-
-    .divider {
-      display: flex; align-items: center; justify-content: center;
-      gap: 0.6rem;
-      padding: 2.5rem 0;
-    }
-    .divider-line {
-      flex: 1; max-width: 180px;
-      height: 1px; background: var(--mist);
-    }
-    .divider-diamond {
-      width: 10px; height: 10px;
-      background: var(--blue);
-      transform: rotate(45deg);
-    }
-    .divider-dot {
-      width: 5px; height: 5px;
-      background: var(--mist);
-      transform: rotate(45deg);
-    }
-
-
-    section { padding: 5rem 6vw; }
-    .section-label {
-      font-size: 0.7rem;
-      letter-spacing: 0.2em;
-      text-transform: uppercase;
-      color: var(--blue);
-      font-weight: 600;
-      margin-bottom: 0.6rem;
-    }
-    .section-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(1.8rem, 3.5vw, 2.8rem);
-      color: var(--deep);
-      line-height: 1.2;
-      max-width: 540px;
-    }
-
-
-    .stats {
-      background: var(--navy);
-      color: var(--white);
-      padding: 3rem 6vw;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 2rem;
-      text-align: center;
-    }
-    .stat-num {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.6rem;
-      font-weight: 700;
-      color: var(--mist);
-    }
-    .stat-label {
-      font-size: 0.8rem;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: rgba(255,255,255,0.5);
-      margin-top: 0.3rem;
-    }
-
-
-    .destinations { background: var(--white); }
-    .destinations .header { margin-bottom: 2.8rem; }
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      border-radius: 8px;
-      overflow: hidden;
-      background: var(--sky);
-      border: 1px solid var(--mist);
-      transition: transform 0.25s, box-shadow 0.25s;
-    }
-    .card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(41,128,185,0.15); }
-    .card-img {
-      width: 100%; height: 200px; object-fit: cover;
-      display: block;
-    }
-    .card-body { padding: 1.4rem; }
-    .card-region {
-      font-size: 0.7rem;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--blue);
-      font-weight: 600;
-    }
-    .card-name {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.3rem;
-      color: var(--deep);
-      margin: 0.3rem 0 0.6rem;
-    }
-    .card-desc { font-size: 0.875rem; color: var(--subtle); line-height: 1.55; }
-    .card-tag {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.25rem 0.75rem;
-      border-radius: 20px;
-      background: var(--mist);
-      color: var(--navy);
-      font-size: 0.75rem;
-      font-weight: 500;
-    }
-
-
-    .culture { background: var(--offwhite); }
-    .culture-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4rem;
-      align-items: center;
-      margin-top: 3rem;
-    }
-    .culture-img {
-      border-radius: 8px;
-      width: 100%;
-      aspect-ratio: 4/3;
-      object-fit: cover;
-      border: 4px solid var(--white);
-      box-shadow: 0 8px 28px rgba(41,128,185,0.12);
-    }
-    .culture-items { display: flex; flex-direction: column; gap: 1.6rem; }
-    .culture-item {
-      display: flex; gap: 1.1rem; align-items: flex-start;
-    }
-    .culture-icon {
-      width: 40px; height: 40px; flex-shrink: 0;
-      background: var(--mist);
-      border-radius: 6px;
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.1rem;
-    }
-    .culture-item h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.05rem;
-      color: var(--deep);
-      margin-bottom: 0.3rem;
-    }
-    .culture-item p { font-size: 0.875rem; color: var(--subtle); }
-
-
-    .tips { background: var(--sky); }
-    .tips-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 1.2rem;
-      margin-top: 2.8rem;
-    }
-    .tip-card {
-      background: var(--white);
-      border-radius: 8px;
-      padding: 1.6rem;
-      border-left: 3px solid var(--blue);
-    }
-    .tip-num {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      color: var(--mist);
-      font-weight: 700;
-      line-height: 1;
-    }
-    .tip-card h3 {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--navy);
-      margin: 0.5rem 0 0.4rem;
-    }
-    .tip-card p { font-size: 0.82rem; color: var(--subtle); }
-
-
-    footer {
-      background: var(--deep);
-      color: rgba(255,255,255,0.55);
-      padding: 3rem 6vw;
-      display: flex; flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-    .footer-brand {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.15rem;
-      color: var(--white);
-    }
-    .footer-brand span { color: var(--mist); }
-    footer p { font-size: 0.8rem; }
-    .footer-links { display: flex; gap: 1.5rem; }
-    .footer-links a { color: rgba(255,255,255,0.4); text-decoration: none; font-size: 0.8rem; }
-    .footer-links a:hover { color: var(--mist); }
-
-    @media (max-width: 700px) {
-      .culture-grid { grid-template-columns: 1fr; }
-      .nav-links { display: none; }
-    }
-  </style>
-</head>
-<body>
-
-
-  <nav>
-    <div class="nav-brand">Việt<span>Nam</span> Orientation</div>
-    <ul class="nav-links">
-      <li><a href="#destinations">Cap2-3</a></li>
-      <li><a href="#culture">Cap3-dh</a></li>
-      <li><a href="#tips">duhoc</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-
-  <section class="hero">
-    <p class="hero-eyebrow">Your orientation guide</p>
-    <h1>🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔 <em>🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔🦔</em></h1>
-    <p class="hero-sub">......</p>
-    <div class="hero-cta">
-      <a href="#destinations" class="btn-primary">.......</a>
-      <a href="#tips" class="btn-ghost">..................</a>
-    </div>
-  </section>
-
-  <div class="stats">
-    <div>
-      <div class="stat-num">..................</div>
-      <div class="stat-label">..............</div>
-    </div>
-    <div>
-      <div class="stat-num">...............</div>
-      <div class="stat-label">...................</div>
-    </div>
-    <div>
-      <div class="stat-num">.................</div>
-      <div class="stat-label">.............</div>
-    </div>
-    <div>
-      <div class="stat-num">.................</div>
-      <div class="stat-label">..............s</div>
+    <div id="khu-vuc-ket-qua-ai" style="background: var(--sky); border-radius: 8px; padding: 2rem; border-left: 4px solid var(--blue); min-height: 350px;">
+      <h3 style="font-family: 'Playfair Display', serif; color: var(--deep); margin-bottom: 1rem;">Kết quả phân tích từ AI:</h3>
+      <div id="ai-loading" style="color: var(--subtle); font-style: italic; display: none;">Hệ thống AI đang phân tích dữ liệu, vui lòng đợi trong giây lát...</div>
+      <div id="ai-noidung">
+        <p style="color: var(--subtle);">Vui lòng nhập đầy đủ thông tin bên trái và bấm nút phân tích để nhận lời khuyên hướng nghiệp thông minh.</p>
+      </div>
     </div>
   </div>
+</section>
 
-
-  <div class="divider">
-    <div class="divider-line"></div>
-    <div class="divider-dot"></div>
-    <div class="divider-diamond"></div>
-    <div class="divider-dot"></div>
-    <div class="divider-line"></div>
+<section class="tips" id="lotrinh">
+  <p class="section-label">Chiến lược học tập</p>
+  <h2 class="section-title">6 lời khuyên cốt cốt lõi để đạt điểm cao</h2>
+  <div class="tips-grid">
+    <div class="tip-card"><div class="tip-num">01</div><h3>Lên lịch cố định</h3><p>Dành ít nhất 2 tiếng mỗi tối để ôn tập các câu hỏi sai trong đề thi thử.</p></div>
+    <div class="tip-card"><div class="tip-num">02</div><h3>Nắm chắc lý thuyết</h3><p>Đừng vội làm đề khó, hãy ăn trọn điểm các câu nhận biết, thông hiểu trước.</p></div>
+    <div class="tip-card"><div class="tip-num">03</div><h3>Lưu trữ đáp án nháp</h3><p>Hệ thống tự động lưu bài làm, hãy yên tâm luyện đề không lo rớt mạng.</p></div>
+    <div class="tip-card"><div class="tip-num">04</div><h3>Tận dụng AI tư vấn</h3><p>Đọc kỹ kế hoạch ôn tập mà AI gợi ý cho riêng mức điểm của bạn.</p></div>
+    <div class="tip-card"><div class="tip-num">05</div><h3>Phân tích điểm chuẩn</h3><p>Xem kỹ điểm chuẩn các năm trước của trường cấp 3/Đại học mục tiêu để đặt đích đến.</p></div>
+    <div class="tip-card"><div class="tip-num">06</div><h3>Giữ vững tâm lý</h3><p>Phân bổ thời gian làm bài hợp lý, tránh việc lỡ tay bấm tải lại trang gây mất tập trung.</p></div>
   </div>
+</section>
 
-  <!-- Gioi Thieu Thanh Vien-->>
-  <section class="destinations" id="destinations">
-    <div class="header">
-      <p class="section-label">.............</p>
-      <h2 class="section-title">..........................</h2>
-    </div>
-    <div class="cards">
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt="................." />
-        <div class="card-body">
-          <p class="card-region">...................</p>
-          <h3 class="card-name">...........</h3>
-          <p class="card-desc">.........................</p>
-          <span class="card-tag">............................</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt="................" />
-        <div class="card-body">
-          <p class="card-region">.................</p>
-          <h3 class="card-name">.................</h3>
-          <p class="card-desc">.................</p>
-          <span class="card-tag">................</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt=".............." />
-        <div class="card-body">
-          <p class="card-region">...............</p>
-          <h3 class="card-name">.................</h3>
-          <p class="card-desc">..............</p>
-          <span class="card-tag">......................</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt=".................." />
-        <div class="card-body">
-          <p class="card-region">.......................</p>
-          <h3 class="card-name">...................</h3>
-          <p class="card-desc">...............</p>
-          <span class="card-tag">..................</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt="......." />
-        <div class="card-body">
-          <p class="card-region">...............</p>
-          <h3 class="card-name">...................</h3>
-          <p class="card-desc">................</p>
-          <span class="card-tag">...................</span>
-        </div>
-      </div>
-
-      <div class="card">
-        <img class="card-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt=".............." />
-        <div class="card-body">
-          <p class="card-region">.................</p>
-          <h3 class="card-name">.............................</h3>
-          <p class="card-desc">.....................</p>
-          <span class="card-tag">.....................</span>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-
-  <div class="divider">
-    <div class="divider-line"></div>
-    <div class="divider-dot"></div>
-    <div class="divider-diamond"></div>
-    <div class="divider-dot"></div>
-    <div class="divider-line"></div>
+<footer id="contact">
+  <div>
+    <div class="footer-brand">Việt<span>Nam</span> Orientation</div>
+    <p style="margin-top:0.4rem;">Dự án hướng nghiệp công nghệ cao cho học sinh Việt Nam.</p>
   </div>
-
-
-  <section class="culture" id="culture">
-    <p class="section-label">.........</p>
-    <h2 class="section-title">..................</h2>
-    <div class="culture-grid">
-      <img class="culture-img" src="https://www.imgworldstickets.com/img-worlds-plan-your-visit/" alt="............" />
-      <div class="culture-items">
-        <div class="culture-item">
-          <div class="culture-icon">🍜</div>
-          <div>
-            <h3>...............</h3>
-            <p>......................</p>
-          </div>
-        </div>
-        <div class="culture-item">
-          <div class="culture-icon">🎋</div>
-          <div>
-            <h3>....................</h3>
-            <p>.............................................</p>
-          </div>
-        </div>
-        <div class="culture-item">
-          <div class="culture-icon">🏺</div>
-          <div>
-            <h3>................</h3>
-            <p>..........................................s.</p>
-          </div>
-        </div>
-        <div class="culture-item">
-          <div class="culture-icon">🙏</div>
-          <div>
-            <h3>..................</h3>
-            <p>............................</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- TIPS -->
-  <section class="tips" id="tips">
-    <p class="section-label">...................</p>
-    <h2 class="section-title">........................</h2>
-    <div class="tips-grid">
-      <div class="tip-card">
-        <div class="tip-num">01</div>
-        <h3>............................</h3>
-        <p>..............................</p>
-      </div>
-      <div class="tip-card">
-        <div class="tip-num">02</div>
-        <h3>......................</h3>
-        <p>................................</p>
-      </div>
-      <div class="tip-card">
-        <div class="tip-num">03</div>
-        <h3>...................</h3>
-        <p>..........................</p>
-      </div>
-      <div class="tip-card">
-        <div class="tip-num">04</div>
-        <h3>...........................</h3>
-        <p>.......................</p>
-      </div>
-      <div class="tip-card">
-        <div class="tip-num">05</div>
-        <h3>...............................</h3>
-        <p>....................................</p>
-      </div>
-      <div class="tip-card">
-        <div class="tip-num">06</div>
-        <h3>......................</h3>
-        <p>..............................................</p>
-      </div>
-    </div>
-  </section>
-
-
-  <footer id="contact">
-    <div>
-      <div class="footer-brand">Việt<span>Nam</span> Orientation</div>
-      <p style="margin-top:0.4rem;">...............................</p>
-    </div>
-    <div class="footer-links">
-      <a href="#">About</a>
-      <a href="#">Privacy</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <p>© 2026 Việt Nam Orientation Project</p>
-  </footer>
-
-</body>
-</html>
+  <div class="footer-links">
+    <a href="#">Về chúng tôi</a>
+    <a href="#">Bảo mật</a>
+    <a href="#contact">Liên hệ</a>
+  </div>
+  <p>© 2026 Việt Nam Orientation Project</p>
+</footer>
